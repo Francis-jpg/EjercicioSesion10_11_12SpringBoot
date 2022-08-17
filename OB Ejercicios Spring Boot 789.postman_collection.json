@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "76a96a57-f1ca-4213-81c9-7a61992dce34",
+		"name": "OB Ejercicios Spring Boot 789",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22717834"
+	},
+	"item": [
+		{
+			"name": "/hola",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/hola",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hola"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptop BUSCAR TODOS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/laptop",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"laptop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptop/1 BUSCAR UNO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/laptop/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"laptop",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptop CREAR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"brand\": \"Lenovo, desde postman\",\r\n    \"model\": \"Legion 5\",\r\n    \"price\": 1799.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/laptop",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"laptop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptop ACTUALIZAR",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n        \"id\": 1,\r\n        \"brand\": \"ASUS, actualizado desde postman\",\r\n        \"model\": \"TR500\",\r\n        \"price\": 799.99\r\n    },",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "hhttp://localhost:8081/api/laptop",
+					"protocol": "hhttp",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"laptop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptop/ BORRAR UNO",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/laptop/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptop",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptop/ BORRAR TODOS",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/laptop",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"laptop"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
