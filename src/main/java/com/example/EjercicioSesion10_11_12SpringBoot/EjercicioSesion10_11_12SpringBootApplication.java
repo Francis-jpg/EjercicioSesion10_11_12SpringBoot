@@ -1,7 +1,7 @@
-package com.example.EjercicioSesion789SpringBoot;
+package com.example.EjercicioSesion10_11_12SpringBoot;
 
-import com.example.EjercicioSesion789SpringBoot.entities.Laptop;
-import com.example.EjercicioSesion789SpringBoot.repository.LaptopRepository;
+import com.example.EjercicioSesion10_11_12SpringBoot.entities.Laptop;
+import com.example.EjercicioSesion10_11_12SpringBoot.repository.LaptopRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -9,10 +9,10 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @EnableWebMvc
 @SpringBootApplication
-public class EjercicioSesion789SpringBootApplication {
+public class EjercicioSesion10_11_12SpringBootApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(EjercicioSesion789SpringBootApplication.class, args);
+		ApplicationContext context = SpringApplication.run(EjercicioSesion10_11_12SpringBootApplication.class, args);
 
 		LaptopRepository repository = context.getBean(LaptopRepository.class);
 

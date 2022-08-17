@@ -1,4 +1,4 @@
-package com.example.EjercicioSesion789SpringBoot.entities;
+package com.example.EjercicioSesion10_11_12SpringBoot.entities;
 
 
 import javax.persistence.*;

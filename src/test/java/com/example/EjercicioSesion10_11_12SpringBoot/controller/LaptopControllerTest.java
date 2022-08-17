@@ -1,6 +1,6 @@
-package com.example.EjercicioSesion789SpringBoot.controller;
+package com.example.EjercicioSesion10_11_12SpringBoot.controller;
 
-import com.example.EjercicioSesion789SpringBoot.entities.Laptop;
+import com.example.EjercicioSesion10_11_12SpringBoot.entities.Laptop;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

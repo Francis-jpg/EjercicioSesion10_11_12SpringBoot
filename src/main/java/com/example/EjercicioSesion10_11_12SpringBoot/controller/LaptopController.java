@@ -1,8 +1,8 @@
-package com.example.EjercicioSesion789SpringBoot.controller;
+package com.example.EjercicioSesion10_11_12SpringBoot.controller;
 
 
-import com.example.EjercicioSesion789SpringBoot.entities.Laptop;
-import com.example.EjercicioSesion789SpringBoot.repository.LaptopRepository;
+import com.example.EjercicioSesion10_11_12SpringBoot.entities.Laptop;
+import com.example.EjercicioSesion10_11_12SpringBoot.repository.LaptopRepository;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
