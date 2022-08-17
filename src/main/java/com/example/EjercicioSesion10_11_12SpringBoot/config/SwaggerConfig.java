@@ -1,4 +1,4 @@
-package com.example.obejercicio10_11_12springboot.config;
+package com.example.EjercicioSesion10_11_12SpringBoot.config;
 
 
 import org.springframework.context.annotation.Bean;
