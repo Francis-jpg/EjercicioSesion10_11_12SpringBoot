@@ -15,7 +15,6 @@ public class EjercicioSesion10_11_12SpringBootApplication {
 		ApplicationContext context = SpringApplication.run(EjercicioSesion10_11_12SpringBootApplication.class, args);
 
 		LaptopRepository repository = context.getBean(LaptopRepository.class);
-
 		//Creamos un laptop
 
 		Laptop laptop = new Laptop(null, "ASUS", "TR500", 599.99);
